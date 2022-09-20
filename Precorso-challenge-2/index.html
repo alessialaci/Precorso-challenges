@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Alessia Lacitignola-challenge 2</title>
+    
+        <style>
+            div {
+                margin: 15px 15px 15px 0;
+            }
+
+            button {
+                border: none;
+                padding: 7px;
+                border-radius: 10px;
+                color: #f19131;
+                font-weight: bold;
+                background-color:#481a8e;
+            }
+        </style>
+
+    </head>
+
+    <body>
+
+        <img src="Muzik-app-logo.png" alt="Muzik App Logo" width="70px"/>
+        <h1 style="color: #f19131">Muzik App</h1>
+
+        <h3 style="color: #481a8e">Ascolta la tua musica, senza limiti. <br/>
+            Ovunque, in qualunque momento.</h3>
+        
+        <p>Registrati grautuitamente compilando i seguenti campi:</p>
+
+        <form onsubmit="alert('Registrazione inviata!')">
+
+            <div>
+                <input type="text" placeholder="Nome" />
+            </div>
+            <div>
+                <input type="text" placeholder="Cognome" />
+            </div>
+            <div>
+                <input type="email" placeholder="Indirizzo email" />
+            </div>
+            <div>
+                <input type="password" placeholder="Password" />
+            </div>
+            <div>
+                <label for="data-di-nascita">Data di nascita:</label> <br/>
+                <input type="date" id="data-di-nascita" />
+            </div>
+            <div>
+                <input type="number" placeholder="Numero di telefono" />
+            </div>
+
+            <p>Permettici di conoscerti meglio: seleziona i tuoi generi musicali preferiti per avere un'esperienza più personalizzata!</p>
+
+            <div>
+                <input type="checkbox" id="rock">
+                <label for="rock">Rock</label>
+
+                <input type="checkbox" id="pop">
+                <label for="pop">Pop</label>
+
+                <input type="checkbox" id="classic">
+                <label for="classic">Classic</label>
+
+                <input type="checkbox" id="metal">
+                <label for="metal">Metal</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="indie">
+                <label for="indie">Indie</label>
+
+                <input type="checkbox" id="hip-hop">
+                <label for="hip-hop">Hip Hop</label>
+
+                <input type="checkbox" id="rap">
+                <label for="rap">Rap</label>
+
+                <input type="checkbox" id="blues">
+                <label for="blues">Blues</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="house">
+                <label for="house">House</label>
+
+                <input type="checkbox" id="jazz">
+                <label for="jazz">Jazz</label>
+
+                <input type="checkbox" id="lirica">
+                <label for="lirica">Lirica</label>
+
+                <input type="checkbox" id="reggae">
+                <label for="reggae">Reggae</label>
+            </div>
+
+
+            <div>
+                <input type="radio" id="privacy">
+                <label for="privacy">Accetto <a href="#">temini e condizioni</a> e <a href="#">normativa sulla privacy Muzik App</a></label>
+            </div>
+
+            <button type="submit">Invia registrazione</button>
+            
+        </form>
+        
+    </body>
+
+</html>
